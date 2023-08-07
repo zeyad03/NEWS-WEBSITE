@@ -1,0 +1,213 @@
+body {
+  padding: 30px;
+  max-width: 1080px;
+  margin: auto;
+}
+
+header {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.row {
+  margin-bottom: 20px;
+  margin-right: 0px;
+}
+
+h1 {
+  text-align: left;
+  font-family: 'Arial';
+  font-size: 50px;
+  padding-top: 30px;
+  text-shadow: 3px 3px rgb(194, 194, 194);
+  background-color: #F1F1F7;
+  color: #1D1D1F;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-left: 12px;
+  margin-bottom: 0px;
+}
+
+a {
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #F1F1F7;
+  color: #1D1D1F;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  border-radius: 5px;
+}
+
+a:hover {
+  box-shadow: inset 100px 0 0 0 #1D1D1F;
+  color: #F1F1F7;
+}
+
+a:link.one, a:visited.one {
+  color: rgb(70, 70, 70);
+}
+
+.current {
+  box-shadow: inset 100px 0 0 0 #1D1D1F;
+  color: #F1F1F7;
+  border-radius: 5px;
+}
+
+img.one {
+  width: 100%;
+  max-height: 400px;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top: 2px solid red;
+}
+
+img.one_world {
+  width: 100%;
+  max-height: 400px;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top: 2px solid rgb(0, 141, 0);
+}
+
+#head_pic {
+  padding-right: 0px;
+}
+
+img.two {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top: 2px solid red;
+}
+
+img.two_world {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top: 2px solid rgb(0, 141, 0);
+}
+
+#head_pic {
+  margin-bottom: -10px;
+}
+
+div > video {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top: 2px solid rgb(0, 141, 0);
+}
+
+#click1, #click2, #click3, #click4, #click5,
+#click6, #click7, #click8, #click9, #click10,
+#click11 {
+  cursor: pointer;
+}
+
+p.one {
+  color: #1D1D1F;
+  border-top: 2px solid red;
+  font-size: 30px;
+  font-family: 'Times New Roman';
+  margin-bottom: 0px;
+  background-color: #F1F1F7;
+  border-top-right-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#p_world_one {
+  border-top: 2px solid rgb(0, 141, 0);
+}
+
+p.two {
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  margin-bottom: 10px;
+  background-color: #F1F1F7;
+  padding-left: 10px;
+  padding-right: 8px;
+  color: #1d1d1fac;
+}
+
+p.three {
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  background-color: #F1F1F7;
+  color: #1D1D1F;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+p.four {
+  font-size: 15px;
+  font-family: 'Times New Roman';
+  margin-bottom: 10px;
+  background-color: #F1F1F7;
+  padding-left: 10px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  color: #1d1d1fac;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+p.article_heading {
+  font-size: 30px;
+  font-family: 'Times New Roman';
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+  background-color: #F1F1F7;
+  color: #1D1D1F;
+}
+
+p.article_text {
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+  background-color: #F1F1F7;
+  color: #1D1D1F;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#head_news {
+  padding-left: 0px;
+  background-color: #F1F1F7;
+  padding-right: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+footer {
+  padding-left: 8px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  background-color: #F1F1F7;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+nav {
+  text-align: center;
+  font-family: Arial;
+  word-spacing: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #F1F1F7;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 20px;
+}
